@@ -20112,7 +20112,7 @@ var Datepicker = React.createClass({
 	},
 
 	selectItem: function selectItem(event) {
-		var value;
+		var value = undefined;
 		if (isDefined(event, 'target.textContent')) {
 			value = event.target.textContent;
 
@@ -20205,7 +20205,7 @@ var Datepicker = React.createClass({
 		return React.createElement(
 			'div',
 			{ ref: 'dateContainer', className: classes, onMouseDown: this.handleMouseDown, onTouchEnd: this.handleMouseDown },
-			React.createElement('input', { type: 'date', name: this.props.name, disabled: this.props.disabled, placeholder: this.props.placeholder, value: this.state.value, onChange: this.handleChange }),
+			React.createElement('input', { name: this.props.name, disabled: this.props.disabled, placeholder: this.props.placeholder, value: this.state.value, onChange: this.handleChange }),
 			selectBox
 		);
 	}

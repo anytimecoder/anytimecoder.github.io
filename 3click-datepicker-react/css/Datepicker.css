@@ -1,0 +1,38 @@
+table {
+  border: thin solid #8A8B8B;
+  border-radius: 8px;
+  padding: 5px;
+}
+td {
+  border: solid thin #8A8B8B;
+  padding: 5px;
+  border-radius: 4px;
+}
+td:hover {
+  background-color: #EBECED;
+}
+.container {
+    max-width: 400px;
+    margin: auto;
+}
+
+body {
+  margin: 0;
+}
+section {
+  padding-top: 50px;
+}
+input {
+  width: 100%;
+}
+header {
+  min-height: 200px;
+  background-color:
+}
+
+header h1 {
+  text-align: center;
+}
+footer {
+  margin-top: 150px;
+}
